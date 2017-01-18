@@ -1,0 +1,35 @@
+<div id="header">
+     <h1 id="header_title"></h1>
+</div>
+
+<div id="content">
+<div id="floatright"><a href="request_handler.php?logout" >Log Out</a></div>
+<div id="floatright"><a href="display_lists.php" >Shopping lists</a></div>
+
+          </br></br></br></br>
+          <form action="request_handler.php">
+          <table id="products">
+                 <th>Item ID</th>
+                 <th>Name</th>
+                 <th></th>
+          </table>
+          </form>
+
+          <form action="request_handler.php" id="center">
+          Type the Name of Item to Add:</br>
+          <input type="text" name="itemname">
+          <input type="submit" value="Add item">
+          </form>
+
+
+
+
+</div>
+<div id="footer">
+     Copyright &copy; 2017 Mohammed El Uharani
+</div>
+          <script>
+          var listname = '<?php echo $_SESSION['listname'] ?>' ;
+          /* Calling on page load function */
+          window.onload = displayList(listname);
+          </script>

@@ -1,0 +1,8 @@
+
+open issues:
+
+-1. implement item/product id using rand function
+0. add table for item list
+1. select list order
+2. list and item list font
+

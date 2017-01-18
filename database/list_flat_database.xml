@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<lists>
+       <list>
+             <name>list 100</name>
+             <products>
+                       
+                       
+                       
+             <product><productName>new item</productName><productId>15206</productId></product><product><productName>new product</productName><productId>15505</productId></product><product><productName>another one</productName><productId>10230</productId></product></products>
+       </list>
+
+
+<list><name>list 200</name><products><product><productName>item 1</productName><productId>20308</productId></product><product><productName>new item</productName><productId>3837</productId></product></products></list><list><name>my list</name><products><product><productName>my item 1</productName><productId>3115</productId></product><product><productName>my item 3</productName><productId>9912</productId></product><product><productName>new item</productName><productId>10231</productId></product></products></list><list><name>another list</name><products/></list></lists>

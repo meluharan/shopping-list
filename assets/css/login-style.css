@@ -1,0 +1,32 @@
+html, body {
+    height: 100%;
+}
+
+.login-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -40px;
+    margin-left: -182.5px;
+    width: 365px;
+    height: 80px;
+    line-height: 80px;
+    padding-left: 10px;
+    background-image: url("../images/login-page/columncorner_bottomleft.gif"),
+    url("../images/login-page/columncorner_bottomright.gif"),
+    url("../images/login-page/columncorner_topleft.gif"),
+    url("../images/login-page/columncorner_topright.gif"),
+    url("../images/login-page/columnbottom_background.gif"),
+    url("../images/login-page/columntop_background.gif");
+    background-position: left bottom, right bottom, left top, right top, bottom, top;
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, repeat-x, repeat-x;
+}
+
+.login-form > input[type="text"] {
+    width: 190px;
+}
+
+.login-form > input[type="submit"] {
+    width: 70px;
+}
+

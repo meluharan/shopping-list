@@ -1,0 +1,38 @@
+<div id="header">
+     <h1>Shopping list Demo</h1>
+</div>
+
+<div id="content">
+<div id="floatright"><a href="request_handler.php?logout" >Log Out</a></div>
+
+
+
+          </br></br></br></br>
+          <form action="request_handler.php">
+          <table id="lists">
+                 <th>List name</th>
+                 <th></th>
+                 <th></th>
+          </table>
+          </form>
+
+
+          <form action="request_handler.php" id="center">
+          Type the Name of List to Add:</br>
+          <input type="text" name="listname">
+          <input type="submit" value="Add list">
+          </form>
+
+
+</div>
+<div id="footer">
+     Copyright &copy; 2017 Mohammed El Uharani
+</div>
+          <script type="text/javascript">
+          var listname = "";
+          /* Calling on page load function */
+          window.onload = displayList(listname);
+          </script>
+
+
+
